@@ -8,7 +8,7 @@ try:
 
     #checking if the user meets both the age and citizenship requirements
     if (age >= 18 and citizen in valid_countries):
-        print(f"Eligible to vote!! country{citizen} and age{age}")
+        print(f"Eligible to vote!! country {citizen} and age {age}")
     else:
         print("Not eligible to vote!!")
 #handles non-numeric input for age
